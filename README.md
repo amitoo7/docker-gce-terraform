@@ -29,6 +29,7 @@ Install Terraform and Git.
    ```
    sudo docker container ls #on google cloud vm instance
    ```
-6. Point your domain to Public IP of the server created
+6. Point your domain to Public IP of the server created and you can access api-gateway service
+
 
 I included my email and domain for traefik let's encrypt please change it in docker-compose-build.tpl which becomes docker-compose.yml on the host.
