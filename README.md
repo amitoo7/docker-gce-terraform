@@ -18,7 +18,7 @@ Install Terraform and Git.
    cd ./docker-gce-terraform
    terraform init
    ```
-2. Copy downloaded json credential file to this project location and rename it to gcp-key.json
+2. Copy downloaded json credential file to this project location and rename it to hauntapp.json
 3. Modify gcp_project value in vars.tf to match the your project ID in google cloud
 4. Execute Terraform plan and apply
    ```
